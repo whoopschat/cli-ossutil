@@ -1,0 +1,31 @@
+{
+  "name": "cli-ossutil",
+  "version": "1.2.0",
+  "description": "ali oss util",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoopschat/cli-ossutil.git"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "keywords": [
+    "cli-ossutil"
+  ],
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "cli-ossutil": "./lib/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "ali-oss": "^6.1.0"
+  }
+}
